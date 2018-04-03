@@ -19,9 +19,12 @@ class List //begin List definition
      void remove(int k);//remove element at location k
      int size();//return the number of elements in the List
      
+     // Missing Operations
      
-     /** MISSING OPERATIONS */
-     //... fill in ....
+     List(); //constructor 1
+	 List(int element, int k); //constructor 2
+     void clear();
+     Node* get(int k);
 
 };//end List definition
 
